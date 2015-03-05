@@ -1,0 +1,6 @@
+docker run -t -i --rm \
+  -v /var/run/docker.sock:/run/docker.sock \
+  -v $(which docker):/bin/docker \
+  -v $(pwd):/current_dir \
+  -v $SSH_AUTH_SOCK:/auth.sock \
+   viatcheslavmogilevsky/suprise:0.0.4
