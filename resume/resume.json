@@ -1,0 +1,247 @@
+{
+
+  "name": "Viacheslav Mogilevsky",
+
+  "meta": {
+    "format": "FRESH@0.6.0",
+    "version": "0.4.0"
+  },
+
+  "info": {
+    "label": "Middle DevOps engineer",
+    "characterClass": "Programmer",
+    "brief": "Four years of experience in software engineering. Three years of experience in continuous delivery, provisioning and deployment. Two years of experience in CI"
+  },
+
+  "contact": {
+    "email": "triggerwoods91@gmail.com"
+  },
+
+  "location": {
+    "city": "Kazan",
+    "region": "Tatarstan",
+    "code": "421001",
+    "country": "Russia"
+  },
+
+  "social": [
+
+    {
+      "label": "GitHub",
+      "network": "GitHub",
+      "user": "viatcheslavmogilevsky",
+      "url": "https://github.com/viatcheslavmogilevsky"
+    },
+
+    {
+      "label": "LinkedIn",
+      "network": "LinkedIn",
+      "user": "mogilevski",
+      "url": "https://linkedin.com/in/mogilevski"
+    }
+  ],
+
+  "employment": {
+
+    "summary": "4+ years industry IT and software development experience.",
+
+    "history": [
+      {
+        "employer": "Ninthdecimal",
+        "position": "Middle DevOps engineer",
+        "summary": "Miscellaneous ops tasks for [Ninthdecimal](http://www.ninthdecimal.com/) - the mobile audience intelligence platform",
+        "start": "2015-05",
+        "highlights": [
+          "Ansible - continuous integration tasks",
+          "Ansible - provision for each component (install system libraries, programming languages)",
+          "Ansible - custom ansible plugins (audit trail)",
+          "Docker - building image for cleanup unused Docker directories. See [pull request](https://github.com/chadoe/docker-cleanup-volumes/pull/13)",
+          "Docker - building image for Jenkins cluster (master and slave)",
+          "Docker - base image with Active Directory integration",
+          "Jenkins - continuous integration tool (deployed through Docker)",
+          "Jenkins - building temporary run-off images to gain environment on demand in a Docker container. Inspired by [this solution](http://www.ebaytechblog.com/2014/05/12/delivering-ebays-ci-solution-with-apache-mesos-part-ii/)",
+          "Jenkins - parallel distributed for integration tests (selenium + video recording)",
+          "Mesos - master and slave provisioning and management"
+        ]
+      },
+
+      {
+        "employer": "Provectus",
+        "position": "Middle DevOps engineer",
+        "summary": "Backend development, continuous integration and microservice architecure for [GetParcel](http://getparcel.ru/) - platform for delivery services and online stores",
+        "start": "2014-09",
+        "highlights": [
+          "Ansible - full stack provision in AWS",
+          "Ansible - automation of system management (install software on hosts, etc), ad-hoc tasks",
+          "Ansible - application deployment (Nginx+Lua, Rails, Node.js)",
+          "Redis - storage for mobile device authentication",
+          "Sidekiq - delayed job processing",
+          "RabbitMQ - messaging environment among microservices",
+          "Nginx+Lua - authentication and complex proxy",
+          "CirceCI - continuous integration service",
+          "Papertrail - log aggregation from microservices"
+        ]
+      },
+
+      {
+        "employer": "Provectus",
+        "position": "Middle Ruby developer",
+        "summary": "Backend development and testing for [BeyondVIP](http://beyondvip.com/), cloud CRM for nightlife industry",
+        "start": "2013-03",
+        "end": "2014-08",
+        "highlights": [
+          "Resque - delay import of contacts from mobile device",
+          "Redis and Resque - asynchronous writing changes of ActiveRecord model data to commit log and further pulling changes to mobile device and browser (delayed replication)",
+          "Redis, Resque and Node.js - async push live changes of ActiveRecord model data to mobile device via WebSockets (async replication)",
+          "Nginx - web server (SSL and WSS support)",
+          "Redis - data storage which used for complex permission policy (CanCan gem is used)",
+          "Redis - data storage for mobile device authentication",
+          "Capistrano - deployment tool",
+          "RSpec - testing"
+        ]
+      },
+
+      {
+        "employer": "Provectus",
+        "position": "Junior Ruby developer",
+        "summary": "RoR application for [Solitical](https://angel.co/solitical); RoR application for [Maia360](https://www.indiegogo.com/projects/maia360-founding-the-biggest-dental-community-worldwide)",
+        "start": "2012-08",
+        "end": "2013-02",
+        "highlights": [
+          "ElasticSearch, Sphinx - search engine",
+          "Resque and ImageMagick - delay image and document processing",
+          "jQuery - front-end",
+          "AWS S3 - file storage",
+          "Nginx - web-server (SSL support)",
+          "[Flexpaper](https://flowpaper.com/) - PDF viewer on site"
+        ]
+      },
+
+      {
+        "employer": "Flatstack",
+        "position": "Intern",
+        "summary": "Participation of developing RoR application for [Donately](https://www.dntly.com), a fundraising platform",
+        "start": "2011-10",
+        "end": "2011-11",
+        "keywords": ["Ruby on Rails"]
+      }
+    ]
+
+  },
+
+  "education": {
+
+    "summary": "",
+
+    "history": [
+
+      {
+        "institution": "Kazan Technical University named by A.N. Tupolev",
+        "studyType": "Bachelor",
+        "area": "Information systems",
+        "start": "2010-09",
+        "end": "2014-06"
+      },
+
+      {
+        "institution": "Kazan Technical University named by A.N. Tupolev",
+        "studyType": "Master",
+        "area": "Computer and Systems Engineering",
+        "start": "2014-09",
+        "end": "2016-08"
+      }
+    ]
+
+  },
+
+  "skills": {
+
+    "sets": [
+      {
+        "name": "Programming languages",
+        "skills": [
+          "Python", "shell", "Ruby", "Lua", "JavaScript"
+        ]
+      },
+
+      {
+        "name": "Platforms",
+        "skills": [
+          "Ubuntu", "Centos", "AWS", "Digital Ocean", "Heroku"
+        ]
+      },
+
+      {
+        "name": "Frameworks and tools",
+        "skills": [
+          "Ruby On Rails", "RSpec", "Node.js", "Openresty"
+        ]
+      },
+
+      {
+        "name": "Version control",
+        "skills": [
+          "Git", "subversion"
+        ]
+      },
+
+      {
+        "name": "Analytics",
+        "skills": [
+          "NewRelic", "Papertrail", "Datadog"
+        ]
+      },
+
+      {
+        "name": "Continuous Integration",
+        "skills": [
+          "Jenkins", "Travis CI", "CircleCI"
+        ]
+      },
+
+      {
+        "name": "Tech stack",
+        "skills": [
+          "Mesos", "MySQL", "Postgres", "RabbitMQ", "Redis", "Nginx", "Sphinx", "ElasticSearch"
+        ]
+      },
+
+      {
+        "name": "Ops stack",
+        "skills": [
+          "Docker", "Ansible", "Terraform", "Capistrano"
+        ]
+      },
+
+      {
+        "name": "Documentation tools",
+        "skills": [
+          "GitHub markdown", "Apiary.io"
+        ]
+      }
+
+    ]
+
+  },
+
+  "speaking": [
+    {
+      "title": "[Deploying Rails and NodeJS with Ansible](http://slides.com/triggerwoods/deck)",
+      "role": "Speaker",
+      "event": "Expert Fridays",
+      "location": "Kazan, Russia",
+      "date": "2014"
+    }
+  ],
+
+  "languages": [
+    {
+      "language": "English",
+      "level": "Professional working proficiency"
+    },
+    {
+      "language": "Russian",
+      "level": "Native"
+    }
+  ]
+}

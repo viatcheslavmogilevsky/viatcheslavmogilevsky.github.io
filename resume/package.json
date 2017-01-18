@@ -1,0 +1,10 @@
+{
+  "name": "viatcheslavmogilevsky-resume",
+  "version": "0.0.1",
+  "dependencies": {
+    "jsonresume-theme-stackoverflow": "^1.0.4"
+  },
+  "devDependencies": {
+    "hackmyresume": "^1.8.0"
+  }
+}
