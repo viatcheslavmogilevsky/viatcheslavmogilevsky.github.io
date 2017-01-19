@@ -10,7 +10,7 @@
   "info": {
     "label": "Middle DevOps engineer",
     "characterClass": "Programmer",
-    "brief": "Four years of experience in software engineering. Three years of experience in continuous delivery, provisioning and deployment. Two years of experience in CI"
+    "brief": "Two years of experience in CI. Three years of experience in continuous delivery, provisioning and deployment. Four years of experience in software engineering."
   },
 
   "contact": {
@@ -19,10 +19,24 @@
 
   "location": {
     "city": "Kazan",
-    "region": "Tatarstan",
-    "code": "421001",
+    "region": "",
+    "code": "",
     "country": "Russia"
   },
+
+  "projects": [
+    {
+      "title": "Sparkery",
+      "category": "FOSS",
+      "role": "contributor",
+      "url": "https://github.com/viatcheslavmogilevsky/sparkery",
+      "start": "2016-08",
+      "repo": "https://github.com/viatcheslavmogilevsky/sparkery",
+      "description": "Infrastructure template for Spark cluster on AWS",
+      "summary": "",
+      "keywords": ["AWS", "Spark", "Terraform", "Ansible"]
+    }
+  ],
 
   "social": [
 
@@ -48,7 +62,7 @@
     "history": [
       {
         "employer": "Ninthdecimal",
-        "position": "Middle DevOps engineer",
+        "position": "DevOps engineer",
         "summary": "Miscellaneous ops tasks for [Ninthdecimal](http://www.ninthdecimal.com/) - the mobile audience intelligence platform",
         "start": "2015-05",
         "highlights": [
@@ -67,11 +81,11 @@
 
       {
         "employer": "Provectus",
-        "position": "Middle DevOps engineer",
+        "position": "DevOps engineer",
         "summary": "Backend development, continuous integration and microservice architecure for [GetParcel](http://getparcel.ru/) - platform for delivery services and online stores",
         "start": "2014-09",
         "highlights": [
-          "Ansible - full stack provision in AWS",
+          "Ansible - full stack provision in AWS, dynamic inventory",
           "Ansible - automation of system management (install software on hosts, etc), ad-hoc tasks",
           "Ansible - application deployment (Nginx+Lua, Rails, Node.js)",
           "Redis - storage for mobile device authentication",
@@ -80,6 +94,20 @@
           "Nginx+Lua - authentication and complex proxy",
           "CirceCI - continuous integration service",
           "Papertrail - log aggregation from microservices"
+        ]
+      },
+
+      {
+        "employer": "Provectus",
+        "position": "DevOps engineer",
+        "summary": "Continuous deployment and automated cloud provision for [EquoTech](https://github.com/EquoTech) - telehealth platform",
+        "start": "2015-04",
+        "end": "2016-11",
+        "highlights": [
+          "Terraform - full stack provision in AWS",
+          "Ansible - automation of system management (install software on hosts, etc)",
+          "Ansible - application deployment and configuration (Nginx, Rails)",
+          "Ansible - dynamic inventory"
         ]
       },
 
@@ -223,6 +251,7 @@
     ]
 
   },
+
 
   "speaking": [
     {
