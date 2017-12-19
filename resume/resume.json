@@ -8,9 +8,9 @@
   },
 
   "info": {
-    "label": "Middle DevOps engineer",
+    "label": "DevOps engineer",
     "characterClass": "Programmer",
-    "brief": "Two years of experience in CI. Three years of experience in continuous delivery, provisioning and deployment. Four years of experience in software engineering."
+    "brief": "Three years of experience in CI. Four years of experience in continuous delivery, provisioning and deployment. Five years of experience in software engineering."
   },
 
   "contact": {
@@ -57,14 +57,27 @@
 
   "employment": {
 
-    "summary": "4+ years industry IT and software development experience.",
+    "summary": "5 years industry IT and software development experience.",
 
     "history": [
+      {
+        "employer": "UpMetrics",
+        "position": "DevOps engineer",
+        "summary": "Ops tasks for [UpMetrics](https://www.upmetrics.com)",
+        "start": "2017-06",
+        "highlights": [
+          "TravisCI - continuous integration service",
+          "Ansible - dynamic inventory",
+          "Capistrano - deployment tool",
+          "Terraform - full stack provision in AWS"
+        ]
+      },
       {
         "employer": "Ninthdecimal",
         "position": "DevOps engineer",
         "summary": "Miscellaneous ops tasks for [Ninthdecimal](http://www.ninthdecimal.com/) - the mobile audience intelligence platform",
         "start": "2015-05",
+        "end": "2017-09",
         "highlights": [
           "Ansible - continuous integration tasks",
           "Ansible - provision for each component (install system libraries, programming languages)",
@@ -80,10 +93,11 @@
       },
 
       {
-        "employer": "Provectus",
+        "employer": "GetParcel",
         "position": "DevOps engineer",
-        "summary": "Backend development, continuous integration and microservice architecure for [GetParcel](http://getparcel.ru/) - platform for delivery services and online stores",
+        "summary": "Backend development, continuous integration and microservice architecure for [GetParcel](https://www.linkedin.com/search/results/index/?keywords=GetParcel) - platform for delivery services and online stores",
         "start": "2014-09",
+        "end": "2015-05",
         "highlights": [
           "Ansible - full stack provision in AWS, dynamic inventory",
           "Ansible - automation of system management (install software on hosts, etc), ad-hoc tasks",
@@ -98,9 +112,9 @@
       },
 
       {
-        "employer": "Provectus",
+        "employer": "heallyTech",
         "position": "DevOps engineer",
-        "summary": "Continuous deployment and automated cloud provision for [EquoTech](https://github.com/EquoTech) - telehealth platform",
+        "summary": "Continuous deployment and automated cloud provision for [heallyTech](https://github.com/EquoTech) - telehealth platform",
         "start": "2015-04",
         "end": "2016-11",
         "highlights": [
@@ -112,7 +126,7 @@
       },
 
       {
-        "employer": "Provectus",
+        "employer": "BeyondVIP",
         "position": "Middle Ruby developer",
         "summary": "Backend development and testing for [BeyondVIP](http://beyondvip.com/), cloud CRM for nightlife industry",
         "start": "2013-03",
@@ -130,9 +144,9 @@
       },
 
       {
-        "employer": "Provectus",
+        "employer": "Maia360",
         "position": "Junior Ruby developer",
-        "summary": "RoR application for [Solitical](https://angel.co/solitical); RoR application for [Maia360](https://www.indiegogo.com/projects/maia360-founding-the-biggest-dental-community-worldwide)",
+        "summary": "RoR application for [Maia360](https://www.indiegogo.com/projects/maia360-founding-the-biggest-dental-community-worldwide)",
         "start": "2012-08",
         "end": "2013-02",
         "highlights": [
@@ -146,9 +160,9 @@
       },
 
       {
-        "employer": "Flatstack",
-        "position": "Intern",
-        "summary": "Participation of developing RoR application for [Donately](https://www.dntly.com), a fundraising platform",
+        "employer": "Donately",
+        "position": "Ruby developer intern",
+        "summary": "Participation of developing RoR application for [Donately](https://donately.com), a fundraising platform",
         "start": "2011-10",
         "end": "2011-11",
         "keywords": ["Ruby on Rails"]
@@ -177,6 +191,14 @@
         "area": "Computer and Systems Engineering",
         "start": "2014-09",
         "end": "2016-08"
+      },
+
+      {
+        "institution": "Technische Universität Ilmenau",
+        "studyType": "Master",
+        "area": "Research in Computer and Systems Engineering",
+        "start": "2015-10",
+        "end": "2016-04"
       }
     ]
 
