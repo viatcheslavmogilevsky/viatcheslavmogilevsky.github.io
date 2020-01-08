@@ -1,0 +1,185 @@
+{
+  "basics": {
+    "name": "Viacheslav Mogilevskii",
+    "label": "DevOps",
+    "summary": "DevOps",
+    "email": "triggerwoods91@gmail.com",
+    "location": {
+      "postalCode": "",
+      "city": "Kazan",
+      "countryCode": "Russia",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "viatcheslavmogilevsky",
+        "url": "https://github.com/viatcheslavmogilevsky"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "mogilevski",
+        "url": "https://linkedin.com/in/mogilevski"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Provectus Labs, LLC",
+      "position": "DevOps/SRE",
+      "startDate": "2014-09",
+      "summary": "Infrastructure management for: [GetParcel](https://www.linkedin.com/search/results/index/?keywords=GetParcel), [heallyTech](https://github.com/EquoTech), [Ninthdecimal](http://www.ninthdecimal.com/), [UpMetrics](https://www.upmetrics.com), [Tripactions](https://tripactions.com/)",
+      "highlights": [
+        "AWS - working with many services (EC2, Beanstalk, load balancing, ECS, EKS, IAM, etc)",
+        "Kubernetes - k8s resources management, writing helm charts",
+        "Terraform - stack provision in AWS, writing custom modules",
+        "Ansible - system management automation, dynamic inventory, ad-hoc tasks",
+        "Ansible - writing custom plugins (audit trail)",
+        "Sidekiq - delayed job processing, monitoring",
+        "RabbitMQ/Kafka - messaging environment among microservices, Kafka Connect integration",
+        "Nginx+Lua - writing authentication proxy",
+        "CirceCI/Travis - continuous integration service, tests parallelization",
+        "Papertrail/AWS Cloudwatch/ElasticSearch - log aggregation from microservices",
+        "Docker - building image for Jenkins cluster (master and slave)",
+        "Docker - Active Directory integration",
+        "Docker - multistage builds (Node.js/Java)",
+        "Jenkins - continuous integration tool (deployed through Docker)",
+        "Jenkins - building temporary run-off images to gain environment on demand in a Docker container. Inspired by [this solution](http://www.ebaytechblog.com/2014/05/12/delivering-ebays-ci-solution-with-apache-mesos-part-ii/)",
+        "Jenkins - parallel distributed for integration tests (selenium + video recording)",
+        "Jenkins - writing pipelines (Sonarcloud/Docker integration)",
+        "Mesos - master and slave provisioning and management",
+        "Capistrano - scalable deploying (Rails/Sidekiq)",
+        "Packer - template AMI for EC2",
+        "PCI DSS compliance"
+      ]
+    },
+    {
+      "company": "Provectus Labs, LLC",
+      "position": "Ruby developer",
+      "startDate": "2012-12",
+      "endDate": "2014-08",
+      "summary": "Ruby on Rails development for: [Maia360](https://www.indiegogo.com/projects/maia360-founding-the-biggest-dental-community-worldwide), [BeyondVIP](http://beyondvip.com/)",
+      "highlights": [
+        "ElasticSearch, Sphinx - search engine",
+        "[Flexpaper](https://flowpaper.com/) - PDF viewer on site",
+        "Redis and Resque - asynchronous writing changes of ActiveRecord model data to commit log and further pulling changes to mobile device and browser (delayed replication)",
+        "Redis, Resque and Node.js - async push live changes of ActiveRecord model data to mobile device via WebSockets (async replication)",
+        "Nginx - web server (SSL and WebSocket support)",
+        "Redis - data storage for mobile device authentication",
+        "Capistrano - deployment tool",
+        "RSpec - testing"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Kazan Technical University named by A.N. Tupolev",
+      "startDate": "2010-09",
+      "endDate": "2016-08",
+      "area": "Computer Science",
+      "studyType": "Bachelor/Master"
+    },
+    {
+      "institution": "Ilmenau University of Technology (ungraduated)",
+      "startDate": "2015-10",
+      "endDate": "2016-03",
+      "area": "Computer Science",
+      "studyType": "Master"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming languages",
+      "keywords": [
+        "Python",
+        "Bash",
+        "Ruby",
+        "Lua",
+        "JavaScript",
+        "Groovy"
+      ]
+    },
+    {
+      "name": "Platforms",
+      "keywords": [
+        "Kubernetes",
+        "Linux",
+        "AWS",
+        "Digital Ocean",
+        "Heroku",
+        "Mesos"
+      ]
+    },
+    {
+      "name": "Monitoring",
+      "keywords": [
+        "Prometheus",
+        "Grafana",
+        "Datadog",
+        "SignalFX"
+      ]
+    },
+    {
+      "name": "Frameworks and tools",
+      "keywords": [
+        "Ruby On Rails",
+        "RSpec",
+        "Node.js",
+        "Openresty"
+      ]
+    },
+    {
+      "name": "Version control",
+      "keywords": [
+        "Git",
+        "Subversion"
+      ]
+    },
+    {
+      "name": "Continuous Integration",
+      "keywords": [
+        "Jenkins",
+        "Travis",
+        "CircleCI"
+      ]
+    },
+    {
+      "name": "Tech stack",
+      "keywords": [
+        "MySQL", "Postgres",
+        "Redis","Sphinx", "ElasticSearch", "Couchbase",
+        "RabbitMQ", "Kafka",
+        "Nginx"
+      ]
+    },
+    {
+      "name": "Ops stack",
+      "keywords": [
+        "Docker",
+        "Ansible",
+        "Terraform",
+        "Capistrano",
+        "Packer"
+      ]
+    },
+    {
+      "name": "Documentation tools",
+      "keywords": [
+        "GitHub markdown",
+        "Apiary.io",
+        "cloudcraft.co",
+        "draw.io"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "level": "Professional working proficiency"
+    },
+    {
+      "language": "Russian",
+      "level": "Native"
+    }
+  ]
+}
