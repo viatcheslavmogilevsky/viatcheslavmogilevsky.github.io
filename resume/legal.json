@@ -26,12 +26,17 @@
   "work": [
     {
       "company": "Provectus Labs, LLC",
-      "position": "DevOps/SRE",
+      "position": "Senior DevOps/SRE",
       "startDate": "2014-09",
-      "summary": "Infrastructure management for: [GetParcel](https://www.linkedin.com/search/results/index/?keywords=GetParcel), [heallyTech](https://github.com/EquoTech), [Ninthdecimal](http://www.ninthdecimal.com/), [UpMetrics](https://www.upmetrics.com), [Tripactions](https://tripactions.com/)",
+      "summary": "Infrastructure management for: [Tripactions](https://tripactions.com/), [Imply](https://imply.io/), [Universal Healthcare](https://universal.one/), [Ninthdecimal](http://www.ninthdecimal.com/), [UpMetrics](https://www.upmetrics.com),  [GetParcel](https://www.linkedin.com/search/results/index/?keywords=GetParcel), [heallyTech](https://github.com/EquoTech)",
       "highlights": [
         "AWS - working with many services (EC2, Beanstalk, load balancing, ECS, EKS, IAM, etc)",
         "Kubernetes - k8s resources management, writing helm charts",
+        "Kubernetes - using userdata in worker node ASG to use docker registry mirrot",
+        "Kubernetes - launch statefull services (Kafka, Postgres) on k8s",
+        "Kubernetes - using argocd for continuous delivery",
+        "Helm - writing custom helm charts",
+        "Sysbox - using sysbox container runtime to provide Docker-In-Docker for CI jobs",
         "Terraform - stack provision in AWS, writing custom modules",
         "Ansible - system management automation, dynamic inventory, ad-hoc tasks",
         "Ansible - writing custom plugins (audit trail)",
@@ -46,11 +51,7 @@
         "Jenkins - continuous integration tool (deployed through Docker)",
         "Jenkins - building temporary run-off images to gain environment on demand in a Docker container. Inspired by [this solution](http://www.ebaytechblog.com/2014/05/12/delivering-ebays-ci-solution-with-apache-mesos-part-ii/)",
         "Jenkins - parallel distributed for integration tests (selenium + video recording)",
-        "Jenkins - writing pipelines (Sonarcloud/Docker integration)",
-        "Mesos - master and slave provisioning and management",
-        "Capistrano - scalable deploying (Rails/Sidekiq)",
-        "Packer - template AMI for EC2",
-        "PCI DSS compliance"
+        "Jenkins - writing pipelines (Sonarcloud/Docker integration)"
       ]
     },
     {
@@ -107,7 +108,8 @@
         "AWS",
         "Digital Ocean",
         "Heroku",
-        "Mesos"
+        "Mesos",
+        "GCP"
       ]
     },
     {
@@ -159,7 +161,8 @@
         "Ansible",
         "Terraform",
         "Capistrano",
-        "Packer"
+        "Packer",
+        "Helm"
       ]
     },
     {
