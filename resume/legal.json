@@ -1,8 +1,8 @@
 {
   "basics": {
     "name": "Viacheslav Mogilevskii",
-    "label": "DevOps",
-    "summary": "DevOps",
+    "label": "Platform Engineer/DevOps",
+    "summary": "Platform Engineer/DevOps",
     "email": "triggerwoods91@gmail.com",
     "location": {
       "postalCode": "",
@@ -28,6 +28,7 @@
       "company": "Provectus Labs, LLC",
       "position": "Senior DevOps/SRE",
       "startDate": "2014-09",
+      "endDate": "2021-06",
       "summary": "Infrastructure management for: [Tripactions](https://tripactions.com/), [Imply](https://imply.io/), [Universal Healthcare](https://universal.one/), [Ninthdecimal](http://www.ninthdecimal.com/), [UpMetrics](https://www.upmetrics.com),  [GetParcel](https://www.linkedin.com/search/results/index/?keywords=GetParcel), [heallyTech](https://github.com/EquoTech)",
       "highlights": [
         "AWS - working with many services (EC2, Beanstalk, load balancing, ECS, EKS, IAM, etc)",
