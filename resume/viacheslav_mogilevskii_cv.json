@@ -25,6 +25,13 @@
   },
   "work": [
     {
+      "company": "Marley Spoon",
+      "position": "Senior DevOps",
+      "startDate": "2023-10",
+      "endDate": null,
+      "summary": "Infrastructure provision in AWS/Kubernetes"
+    },
+    {
       "company": "Affinidi",
       "position": "Senior Platform Engineer",
       "startDate": "2021-06",
@@ -46,10 +53,7 @@
       "summary": "Infrastructure management for: Tripactions (https://tripactions.com/), Imply (https://imply.io/), Universal Healthcare (https://universal.one/), Ninthdecimal (http://www.ninthdecimal.com/), UpMetrics (https://www.upmetrics.com), GetParcel (https://www.linkedin.com/search/results/index/?keywords=GetParcel), heallyTech (https://github.com/EquoTech)",
       "highlights": [
         "AWS - working with many services (EC2, Beanstalk, load balancing, ECS, EKS, IAM, etc)",
-        "Kubernetes - k8s resources management, writing helm charts",
-        "Kubernetes - using userdata in worker node ASG to use docker registry mirrot",
         "Kubernetes - using argocd for continuous delivery",
-        "Helm - writing custom helm charts",
         "Sysbox - using sysbox container runtime to provide Docker-In-Docker for CI jobs",
         "Terraform - stack provision in AWS, writing custom modules",
         "Ansible - system management automation, dynamic inventory, ad-hoc tasks",
@@ -59,12 +63,8 @@
         "Nginx+Lua - writing authentication proxy",
         "CirceCI/Travis - continuous integration service, tests parallelization",
         "Papertrail/AWS Cloudwatch/ElasticSearch - log aggregation from microservices",
-        "Docker - building image for Jenkins cluster (master and slave)",
         "Docker - multistage builds (Node.js/Java)",
-        "Jenkins - continuous integration tool (deployed through Docker)",
-        "Jenkins - building temporary run-off images to gain environment on demand in a Docker container. Inspired by this solution: https://tech.ebayinc.com/engineering/delivering-ebays-ci-solution-with-apache-mesos-part-ii/",
-        "Jenkins - parallel distributed for integration tests (selenium + video recording)",
-        "Jenkins - writing pipelines (Sonarcloud/Docker integration)"
+        "Jenkins - parallel distributed for integration tests (selenium + video recording)"
       ]
     },
     {
